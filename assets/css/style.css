@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    height: 100%;
+}
+body {
+    width: 100%;
+}
+/* hero image styling */
+.hero-image {
+    background-image: url(../images/smokies.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* h1 styling */
+h1 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: right;
+}
