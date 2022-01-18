@@ -1,0 +1,20 @@
+header {
+    padding: 10px;
+    background-color: navy;
+    height: 3em;
+}
+
+header h1 {
+    display: inline-block;
+    color: whitesmoke;
+    font-family: 'Pangolin', cursive;
+}
+
+.heroimage {
+    background-image: url(../images/smokies.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
