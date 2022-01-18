@@ -10,6 +10,13 @@ header h1 {
     font-family: 'Pangolin', cursive;
 }
 
+header div {
+    float: right;
+    font-family: 'Pangolin', cursive;
+    font-weight: 1000;
+    color: whitesmoke;
+}
+
 .heroimage {
     background-image: url(../images/smokies.jpg);
     height: 500px;
@@ -17,4 +24,16 @@ header h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+.portfoliopic {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    margin-left: 25px;
+}
+
+h2, p {
+    background-color: lightgray;
+    font-family: 'Pangolin', cursive;
 }
