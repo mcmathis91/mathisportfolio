@@ -8,13 +8,18 @@ header h1 {
     display: inline-block;
     color: whitesmoke;
     font-family: 'Pangolin', cursive;
+    height: auto;
+    width: auto;
 }
 
 header div {
     float: right;
     font-family: 'Pangolin', cursive;
     font-weight: 1000;
+    font-size: 20px;
     color: whitesmoke;
+    height: auto;
+    width: auto;
 }
 
 .heroimage {
@@ -31,6 +36,7 @@ header div {
     height: auto;
     float: right;
     margin-left: 25px;
+    max-width: 400px;
 }
 
 h2, p {
