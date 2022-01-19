@@ -1,20 +1,20 @@
 * {
     font-family: 'Pangolin', cursive;
 }
-
+/* header styled below */
 header {
     padding: 10px;
     background-color: navy;
     height: 3em;
 }
-
+/* header h1 styled below */
 header h1 {
     display: inline-block;
     color: whitesmoke;
     height: auto;
     width: auto;
 }
-
+/* header div styled below */
 header div {
     float: right;
     font-weight: 1000;
@@ -23,7 +23,7 @@ header div {
     height: auto;
     width: auto;
 }
-
+/* hero image styled below (unable to add text to image) */
 .heroimage {
     background-image: url(../images/smokies.jpg);
     height: 500px;
@@ -32,35 +32,43 @@ header div {
     background-size: cover;
     position: relative;
 }
-
+/* portfolio image styled below (had trouble postioning and sizing image) */
 .portfoliopic {
     height: auto;
     float: right;
     margin-left: 25px;
     max-width: 300px;
 }
-
+/* about me section styled below */
 #about-me h2, .aboutme p {
     background-color: lightgray;
 }
-
+/* project image styled below */
 .projectsimage {
     height: auto;
     float: left;
     margin-right: 25px;
     max-width: auto;
 }
-
-#my-projects h2, p {
+/* projects section styled below (unable to postion it to the right but liked the look of it in between the 2 images) */
+#my-projects h2, .myprojects p {
     background-color: lightskyblue;
+    
 }
-
+/* contact image stlyed below (unable to get the image postioned to the bottom right corner of the screen) */ 
 .contact {
+    align-items: center;
     padding-top: 50px;
     height: auto;
     max-width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    width: 20%;
+    height: 100%;
 }
-
+/* contact information section styled below */
 #contact-information h2, .contactinformation p {
     background-color: rgb(250, 144, 6);
+    clear: both;
 }
