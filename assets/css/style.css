@@ -34,17 +34,33 @@ header div {
 }
 
 .portfoliopic {
-    max-width: 100%;
     height: auto;
     float: right;
     margin-left: 25px;
     max-width: 300px;
 }
 
-.aboutme h2, p {
+#about-me h2, .aboutme p {
     background-color: lightgray;
 }
 
-.myprojects h2 {
+.projectsimage {
+    height: auto;
+    float: left;
+    margin-right: 25px;
+    max-width: auto;
+}
+
+#my-projects h2, p {
     background-color: lightskyblue;
+}
+
+.contact {
+    padding-top: 50px;
+    height: auto;
+    max-width: 300px;
+}
+
+#contact-information h2, .contactinformation p {
+    background-color: rgb(250, 144, 6);
 }
